@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Side by Side</title>
+    <style>
+	 body {
+            background-image: url('BACKGROUND_IMAGE.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: #f0f0f0;
+            min-height: 100vh;
+ 	footer {
+            background-color: #333; /* Dark background */
+            color: white; /* White text */
+            text-align: center; /* Center-align the text */
+            padding: 20px 0; /* Add some space around the content */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .image-item {
+            text-align: center;
+        }
+        img {
+            width: 4cm;
+            height: 4cm;
+            border-radius: 15px;
+        }
+        .image-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+	P{
+	  text-align: center;
+	  font-weight: bold;
+	   color: white;
+		}
+        }
+    </style>
+</head>
+<body>
+	<p>PROJECT ALL CONNECT</P>
+    <div class="image-container">
+        <div class="image-item">
+            <a href="page1.html" target="_blank">
+                <img src="shopping_image.jpg" alt="Shopping">
+                <div class="image-name">SHOPPING</div>
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="page2.html" target="_blank">
+                <img src="social_media_image.jpg" alt="Social Media">
+                <div class="image-name">SOCIAL MEDIA</div>
+            </a>
+        </div>
+    
+	 <footer>
+        <p>&copy; THIS PROJECT IS UNDER CONSTUCTION. <BR> THANK YOU!</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

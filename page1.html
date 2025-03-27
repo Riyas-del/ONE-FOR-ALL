@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Side by Side</title>
+    <style>
+ body {
+            background-image: url('BACKGROUND_IMAGE.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: #f0f0f0;
+            min-height: 100vh;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .image-item {
+            text-align: left;
+        }
+        img {
+            width: 3cm;
+            height: 3cm;
+            border-radius: 15px;
+        }
+        .image-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <div class="image-item">
+            <a href="https://www.flipkart.com" target="_blank">
+                <img src="flipkart.jpg" alt="flipkart">
+                <div class="image-name">FLIPKART</div>
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="https://www.Amazon.com" target="_blank">
+                <img src="amazon.jpg" alt="Amazon">
+                <div class="image-name">AMAZON</div>
+            </a>
+        </div>
+        
+    
+    
+
+</body>
+</html>
